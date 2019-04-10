@@ -1,3 +1,3 @@
 # TapIUT
 # Mon premier jeu
-# Demarrer 
+# Demarrer par le fichier Projet.html
