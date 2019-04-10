@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Projet</title>
+	<link rel="stylesheet" type="text/css" href="Projet.css">
+</head>
+<body>
+		<form name="forsec" id="chrono">
+		<input type="text" size="3" name="seca"> secondes
+		<input type="text" size="3" name="secc" id="invisi"> 
+    <input type="text" size="5" id="nom" name="name"> Nom joueur
+		</form>
+		<p id="scoreaff">Score</p>
+		<p id="score">0</p>
+		<p id="scorefin">Touche par seconde</p>
+		<p id="scorefinal">0</p>
+		<p id="mult">Multiplicateur</p>
+		<p id="multscr">1</p>
+		
+		<img id="scoretab" src="score.png">
+		<img id="sablier" src="sablier.png">
+
+		<input type="button" id="start" value="Start" onclick="start(1); scoreRequest(0,'');">
+
+
+
+
+	<table>
+   <tr>
+       <td><img id="01" src="vide.png"></td>
+       <td><img id="02" src="vide.png"></td>
+       <td><img id="03" src="vide.png"></td>
+   </tr>
+   <tr>
+       <td><img id="11" src="vide.png"></td>
+       <td><img id="12" src="vide.png"></td>
+       <td><img id="13" src="vide.png"></td>
+   </tr>
+   <tr>
+       <td><img id="21" src="vide.png"></td>
+       <td><img id="22" src="vide.png"></td>
+       <td><img id="23" src="vide.png"></td>
+   </tr>
+   <tr>
+       <td><img id="31" src="vide.png"></td>
+       <td><img id="32" src="vide.png"></td>
+       <td><img id="33" src="vide.png"></td>
+   </tr>
+   <tr>
+       <td><img id="41" src="vide.png"></td>
+       <td><img id="42" src="vide.png"></td>
+       <td><img id="43" src="vide.png"></td>
+   </tr>
+</table>
+<img id="case" src="vide.png">
+
+</body>
+<div id="divImgScore" >
+  <div>Meilleur Score</div>
+  <div id="tabscore" src="score.png"></div>
+</div>
+<script type="text/javascript" src="tapiut.js"></script>
+</html>
